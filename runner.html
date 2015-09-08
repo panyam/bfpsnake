@@ -26,6 +26,13 @@ font-style: italic;
 <BODY TEXT=aqua BGCOLOR="#000000" LINK="#D2B48C" VLINK="#D2B48C" ALINK="#D2B48C">
 <br>Click on the following button to Start the game: <br>
 <center>
-		<APPLET code="https://github.com/panyam/bfpsnake/raw/master/snake.jar" WIDTH=150 HEIGHT=60></APPLET>
+		<APPLET archive="https://github.com/panyam/bfpsnake/raw/master/snake.jar" code="com.sri.games.snake.SnakeApplet" WIDTH=150 HEIGHT=60></APPLET>
 </center>
+
+<embed id="SnakeApplet"
+	type="application/x-java-applet;version=1.6"
+	width="150" height="60" 
+	archive="snake.jar"
+	code="com.sri.games.snake.SnakeApplet.class"
+	pluginspage="http://java.com/download/" />
 </html>
