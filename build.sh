@@ -5,5 +5,5 @@ javac `find . | grep .java`
 
 # echo "Creating jar..."
 cd src 
-jar -cvf snake.jar `find ./ | grep .class`
+jar -cvfm snake.jar manifest `find ./ | grep .class`
 mv snake.jar ../
